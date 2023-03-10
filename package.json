@@ -1,0 +1,19 @@
+{
+  "name": "video_chat_app",
+  "version": "1.0.0",
+  "description": "This is sample project based on socketio webRTC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lalitkishork73/video-broadcast-chat-app-v-1.0.git"
+  },
+  "author": "Lalitkishor k",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lalitkishork73/video-broadcast-chat-app-v-1.0/issues"
+  },
+  "homepage": "https://github.com/lalitkishork73/video-broadcast-chat-app-v-1.0#readme"
+}
