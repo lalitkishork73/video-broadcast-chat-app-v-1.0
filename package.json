@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "This is sample project based on socketio webRTC",
   "main": "index.js",
+  "type":"module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/lalitkishork73/video-broadcast-chat-app-v-1.0/issues"
   },
-  "homepage": "https://github.com/lalitkishork73/video-broadcast-chat-app-v-1.0#readme"
+  "homepage": "https://github.com/lalitkishork73/video-broadcast-chat-app-v-1.0#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
 }
